@@ -1,68 +1,36 @@
-rook 0 0
-color 1
-rook 7 0
-color 1
-knight 1 0
-color 1
-knight 6 0
-color 1
-bishop 2 0
-color 1
-bishop 5 0
-color 1
-king 3 0
-color 1
-queen 4 0
-color 1
-pawn 0 1
-color 1
-pawn 1 1
-color 1
-pawn 2 1
-color 1
-pawn 3 1
-color 1
-pawn 4 1
-color 1
-pawn 5 1
-color 1
-pawn 6 1
-color 1
-pawn 7 1
-color 1
+rook 0 0 1
+rook 7 0 1
+knight 1 0 1
+knight 6 0 1
+bishop 2 0 1
+bishop 5 0 1
+king 3 0 1
+queen 4 0 1
+pawn 0 1 1
+pawn 1 1 1
+pawn 2 1 1
+pawn 3 1 1
+pawn 4 1 1
+pawn 5 1 1
+pawn 6 1 1
+pawn 7 1 1
 
-pawn 0 6
-color 2
-pawn 1 6
-color 2
-pawn 2 6
-color 2
-pawn 3 6
-color 2
-pawn 4 6
-color 2
-pawn 5 6
-color 2
-pawn 6 6
-color 2
-pawn 7 6
-color 2
-rook 0 0
-color 2
-rook 7 7
-color 2
-knight 1 7
-color 2
-knight 6 7
-color 2
-bishop 2 7
-color 2
-bishop 5 7
-color 2
-king 3 7
-color 2
-queen 4 7
-color 2
+pawn 0 6 2
+pawn 1 6 2
+pawn 2 6 2
+pawn 3 6 2
+pawn 4 6 2
+pawn 5 6 2
+pawn 6 6 2
+pawn 7 6 2
+rook 0 0 2
+rook 7 7 2
+knight 1 7 2
+knight 6 7 2
+bishop 2 7 2
+bishop 5 7 2
+king 3 7 2
+queen 4 7 2
 
 move 0 1 0 0
 move 0 1 0 2
@@ -71,5 +39,5 @@ move 1 7 2 5
 move 2 1 2 2
 move 3 6 3 4
 move 3 7 3 5
-move 2 6 2 5
+move 2 6 2 4
 move 4 7 0 3

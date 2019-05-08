@@ -15,21 +15,16 @@ public class Knight extends ChessPiece
 
         if(horizonDif == 2 && rowDif == 1)
         {
-            moveType = "horizontal";
-            if(board.pathCheck(this, colmnPos, rowPos, colmn, rowPos, moveType))
+            if(board.getBoard()[row][colmn] == null)
             {
-                moveType = "vertical";
-                return board.pathCheck(this, colmn, rowPos, colmn, row, moveType);
+                return true;
             }
-
         }
         else if(rowDif == 2 && horizonDif == 1)
         {
-            moveType = "vertical";
-            if(board.pathCheck(this, colmnPos, rowPos, colmnPos, row, moveType))
+            if(board.getBoard()[row][colmn] == null)
             {
-                moveType = "horizontal";
-                return board.pathCheck(this, colmnPos, row, colmn, row, moveType);
+                return true;
             }
         }
 

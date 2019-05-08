@@ -140,14 +140,15 @@ public class ChessBoard
                     piece.move(this, Integer.valueOf(lineSegment[3]), Integer.valueOf(lineSegment[4]));
                 }
             }
-            else if(lineSegment[0].equals("color"))
-            {
-                piece.setColor(Integer.valueOf(lineSegment[1]));
-            }
-            else if(!lineSegment[0].equals("move") && !lineSegment[0].equals("color"))
+            else if(!lineSegment[0].equals("move"))
             {
                 System.out.println(lineSegment[0]);
                 setPiece(lineSegment[0], Integer.valueOf(lineSegment[1]), Integer.valueOf(lineSegment[2]));
+                if(lineSegment.length > 3)
+                {
+                    piece = getPiece(Integer.valueOf(lineSegment[1]), Integer.valueOf(lineSegment[2]));
+                    piece.setColor(Integer.valueOf(lineSegment[3]));
+                }
             }
 
         }
