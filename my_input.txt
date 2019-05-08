@@ -36,6 +36,7 @@ move 0 1 0 0
 move 0 1 0 2
 move 3 7 4 7
 move 1 7 2 5
+move 2 5 4 4
 move 2 1 2 2
 move 3 6 3 4
 move 3 7 3 5
