@@ -23,7 +23,7 @@ pawn 4 6 2
 pawn 5 6 2
 pawn 6 6 2
 pawn 7 6 2
-rook 0 0 2
+rook 0 7 2
 rook 7 7 2
 knight 1 7 2
 knight 6 7 2
