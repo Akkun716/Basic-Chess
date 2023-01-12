@@ -2,7 +2,7 @@
 
 This was a project from my CS112 course that focused on exception handling and validation of moves for chess pieces. There are changes made to the project after its submission, either due to commenting and to enhance readibility and understandability or functional to build upon the project and enhance its capabilities.
 
-##Input Files
+## Input Files
 
 The program is currently run using text files that specify chess pieces to be populated and pieces to be moved within the current instance of the board. Pieces are create with the following command: `[piece] [row] [column] [color]`, with row and column 0 beginning from the "top left" of the board and colors black and white represented with the int values 1 and 2. 
 
